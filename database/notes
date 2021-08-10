@@ -1,0 +1,15 @@
+Database-->it is the collection of table
+===>There are several types of engine in the database managment systems
+===>we use innoDB engine
+
+RDBMS-->Relational database managment system
+NOSQL-->
+xampp--->    x- a-apache m-mysql p-php p-pearl
+
+Commands in shell--->  show database;
+                       exit;
+                       create table;
+
+task1-->types of engine in mysql(innoDB)
+task2-->datatypes use in mysql php
+                       

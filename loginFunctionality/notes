@@ -1,0 +1,74 @@
+<-----COOKIE----->  
+facebook.com   
+     |
+login page
+     |
+then server will verify the username and password
+if match then it will redirect to the home page and save the cookie in the brwoser memory
+then whenever next time facebook.com will browser it will directle check for the fb cookie if available 
+then it will directly redirect to the home page.
+     |
+
+
+
+
+
+=================================================================================
+
+TYPE OF COOKIE
+-->Persistant cookie
+-->In memory cookie   
+
+
+IN MEMORY COOKIE-->
+setcookie(cookie name,cookie value);
+<?php
+   setcookie('name','satyam');
+
+   echo $_COOKIE['name'];
+ ?>
+
+
+ PERSISTANT COOKIE-->
+ This will delete the created cookie after a definite time 
+ setcookie('city','nagpur',time()+300);
+     ---this will delete the cookie after 5min
+ To delete the cookie forcefully use---
+     setcookie('city','nagpur',time()-1);
+
+
+
+==========================================================================================
+SESSION-->The time between the login and the logout is called as the session
+
+
+
+       LOGIN.PHP         -------->         CHECK.PHP     ---------->     WELCOME.PHP
+
+                                                       
+                                       session file created        check for the session
+                                                                   file if exist then continue
+                                                                   with the same otherwise create  new
+
+
+
+
+
+       session functions
+       -->session_start()--->this will create the session file
+       -->session_id()--> this will give the session id
+       -->session['user']:'satyam';  --->this will save the user name as satyam in the session file.
+          session['name']:'value';
+       -->session_destroy()-->this will delete the session file for the specify server.
+
+       
+
+
+
+
+
+
+
+
+
+

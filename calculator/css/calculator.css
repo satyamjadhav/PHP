@@ -1,0 +1,90 @@
+
+*{
+	margin:0;
+	padding:0;
+	font-family:fantasy;
+ }
+body
+ {
+    background-color:#A8DADC;
+ }
+button{
+ 	width:60%;
+ 	height:50px;
+ 	background-color:#2f4f4f;
+ 	color:white;
+ 	border: none;
+ 	font-size:25px;
+ 	margin-left:300px;
+ 	margin-top:30px;
+ 	border-radius:30px;
+ }
+form{
+	display:block;
+	margin-left:500px;
+	margin-top:20px;
+}
+table
+{
+	padding:20px 15px 60px 15px;
+	background-color: darkslategrey;
+	border-radius:20px;
+	border:none;
+}
+table tr td input
+{
+			margin:3px;
+			border-radius:25px;
+			height:70px;
+		
+}
+.input{
+	font-family:segment;
+	padding:10px;
+	margin-bottom:20px;
+	font-family:monospace;
+	color: white;
+	width:330px;
+	box-shadow:1px 2px 5px black; 
+	height:100px;
+	font-size:60px;
+	background-color:#353535;
+}
+.number
+{
+	width:70px;
+	background-color:#474747 ;
+	box-shadow:1px 3px 5px black;
+	font-size:30px;
+	opacity: 90%;
+	color:white;
+}
+.operator
+{
+	width:70px;
+	background-color: #626262;
+	/*border:1px solid black;*/
+	box-shadow:0px 5px 5px black;
+	font-size:30px;
+	opacity: 90%;
+	color:white;
+}
+.operator1{
+	background-color:red;
+	color:white;
+}
+.number:hover
+{
+	/*background-color:#2f4958;*/
+	opacity:100%;
+	box-shadow:0px 3px 2px #2f4958;
+	color: #ea5f5c;
+	font-size:36px;
+}
+.operator:hover{
+	opacity:100%;
+	box-shadow:0px 3px 2px #2f4958;
+	color: #ea5f5c;
+	font-size:36px;
+}
+
